@@ -38,15 +38,16 @@ module.exports = function (app) {
             .catch(err => {
                 res.json(err);
             });
-    });
 
-    function updateWorkout(exercises) {
-        db.Workout.findByIdAndUpdate(workoutId, { exercises: exercises }, function (err, doc) {
-            if (err) {
-                console.log(err)
-            }
-        });
-    };
+
+        function updateWorkout(exercises) {
+            db.Workout.findByIdAndUpdate(workoutId, { exercises: exercises }, function (err, doc) {
+                if (err) {
+                    console.log(err)
+                }
+            });
+        };
+    });
 
 
     app.get("/api/workouts/range", (req, res) => {
