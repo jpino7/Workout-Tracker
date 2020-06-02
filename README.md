@@ -18,8 +18,16 @@ To create a workout tracker application using NoSQL, MongoDB, Mongoose, and Expr
 ## Installation
 No Installation Required.
 
-## Usage
-Go to app Select New Workout, Add your Exercise, fill in all fields, Select Add Exercise. Once you have added your exercise navigate to the Workout Dashboard to be able to see your stats. If you want to continue your workout and add to the same exercise Select Continue Workout, Add your Exercise, fill in all fields, Select Complete if you are now finished with that exercise.
+## Usage 
+Steps:
+
+1. Go to app and SELECT New Workout
+2. Add your Exercise and fill in all fields
+3. SELECT Add Exercise
+4. Once you have added your exercise NAVIGATE to the Workout Dashboard to be able to see your stats.
+5. If you want to continue your workout and ADD to the same exercise SELECT Continue Workout
+6. Add your Exercise and fill in all fields
+7. SELECT Complete if you are now finished with that specific workout.
 
 ## License
 Copyright 2020 Joanna Pino
